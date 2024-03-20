@@ -1,0 +1,55 @@
+/* Custom CSS for styling */
+.contact-form-container {
+  padding: 50px 0;
+}
+body {
+  background: aqua;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-image {
+  width: auto;
+  height: auto;
+}
+
+.contact-form {
+  padding-left: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 10rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #7adc20;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+.row {
+  border: 2px solid black;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+h1 {
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: azure;
+}
+.card {
+  border: none;
+}
+.card-body {
+  border: 1px solid black;
+  background-color: azure;
+}
+.form button {
+  background-color: yellow;
+}
+.form-control {
+  border: 1px solid black;
+}
+.trash-icon {
+  font-size: xx-large;
+}
+.read-box {
+  width: 1rem;
+}
+.logo img {
+  width: auto;
+  height: 100%; /* Adjust this percentage as needed */
+  object-fit: cover;
+}
+.logo {
+  height: 4rem;
+}

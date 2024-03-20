@@ -1,0 +1,17 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #7adc20;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input {
+  border: 2px solid black;
+}

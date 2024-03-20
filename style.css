@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*header first
+/* second nevigation bar css style  */
+.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.navbar .dropdown-menu {
+  background-color: aqua;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.logo img {
+  width: auto;
+  height: 100%; /* Adjust this percentage as needed */
+  object-fit: cover;
+}
+.logo {
+  height: 4rem;
+}
+.navbar {
+  display: flex;
+  /* justify-content: flex-start; */
+  background-color: rgb(0, 0, 0);
+}
+
+.search-btn {
+  width: 10vh;
+  background-color: aqua;
+  border-bottom-right-radius: 10px;
+}
+.cart {
+  color: aqua;
+  font-size: xx-large;
+  margin-left: 1rem;
+}
+.card i {
+  text-decoration: none;
+  color: aqua;
+}
+.log-btn {
+  width: 10vh;
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.login-cart {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+.d-flex input {
+  padding: 0.5rem;
+  width: 35vw;
+  border-top-left-radius: 10px;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 50%; /* Adjust this percentage as needed */
+  object-fit: cover;
+}
+
+@media screen and (min-width: 568px) {
+  .cards-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .card {
+    margin: 2em;
+    width: calc(100% / 2);
+  }
+  .image-wrapper {
+    height: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  .cards-wrapper {
+    display: flex;
+  }
+  .card {
+    margin: 2em;
+    width: calc(100% / 2);
+  }
+  .image-wrapper {
+    height: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 567px) {
+  .card:not(:first-child) {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-item .card:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+.image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*styling for footer*/
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.divider-container {
+  background-color: black;
+  color: white;
+}
+.footer-divider {
+  border-top: 1px solid #fff;
+  margin-bottom: 5px;
+}
